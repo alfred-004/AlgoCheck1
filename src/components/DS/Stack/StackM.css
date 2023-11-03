@@ -1,0 +1,84 @@
+.page
+{
+    max-width: 85rem;
+}
+
+.writings li{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    color: var(--primary-color);
+    list-style: disc;
+    background-color: var(--secondary-color);
+    margin-bottom: 30px;
+}
+
+.writings p{
+    line-height: 1.4;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+
+.box{
+    margin-top: 4px;
+    margin:20px;
+    background-color: var(--primary-color);
+    display: flex;
+    flex-direction: row;
+    height: 500px;
+    width: 500px;
+}
+
+.line{
+    position: relative;
+    display: block;
+    bottom: 3px;
+    background-color: #969696;
+}
+
+.p-n
+{
+    height: auto;
+    width: auto;
+    margin: 4rem;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.bt-1
+{
+    display: inline-block;    
+    height: 3rem;
+    width: 6rem;
+    background-color: var(--primary-color);
+    
+    color: var(--secondary-color); 
+    border-radius: 10px;
+    font-size: 1rem;
+
+    font-weight: 400;
+}
+
+.bt-2
+{
+    display: inline-block;
+    height: 3rem;
+
+    width: 6rem;
+    background-color: var(--primary-color);
+    color: var(--secondary-color); 
+   
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.bt-1:hover, .bt-2:hover
+{
+    cursor: pointer;
+    background-color: rgba(244, 247, 247, 0.8);
+    color: rgb(8, 1, 1);
+
+}

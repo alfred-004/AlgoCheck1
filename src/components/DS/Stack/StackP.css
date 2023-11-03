@@ -1,0 +1,25 @@
+.problem-page
+{
+    margin: 1.2rem;
+    padding: 1.2rem;
+}
+
+.code-editor
+{
+    margin: 1.2rem;
+    height: auto;
+    width: 10px;
+}
+
+
+@media only screen and (max-width: 900px) {
+    .ace-editor-container
+    {
+        height: 20px;
+        max-width: 50px;
+        margin: 1.2rem;
+    }
+        
+
+}
+

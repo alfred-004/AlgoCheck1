@@ -1,0 +1,68 @@
+.page{
+    display: flex;
+    margin: 4px;
+
+}
+
+.content{
+    margin: 20px;
+    padding: 10px;
+}
+
+.content h2{
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+    text-decoration: underline;
+}
+
+.main-content{
+    padding: 20px;
+}
+
+.writing{
+    margin: 10px;
+    padding: 10px;
+}
+
+.writing ul{
+    background-color: var(--secondary-color);
+}
+
+.writing li{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color:var(--primary-color);
+    list-style: disc;
+    background-color: var(--secondary-color);
+}
+
+.writing p{
+    line-height: 1.4;
+    font-weight: 500;
+}
+
+.methods{
+    margin: 7px;
+    padding: 25px;
+}
+
+.main-content button{
+    position: absolute;
+    right: 3rem;
+    height: 3rem;
+
+    width: 6rem;
+    background-color: var(--primary-color);
+    color: var(--secondary-color); 
+   
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.main-content button:hover{
+    cursor: pointer;
+    background-color: rgba(244, 247, 247, 0.8);
+    color: rgb(8, 1, 1);
+}

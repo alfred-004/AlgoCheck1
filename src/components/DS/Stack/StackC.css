@@ -1,0 +1,39 @@
+.code-page
+{
+    margin: 1.2rem;
+    padding: 1.1rem;
+}
+
+.code
+{
+    margin: 2rem;
+    padding: 1.2rem;
+}
+
+.c-code
+{
+    margin: 1rem;
+    height: auto;
+    max-width: 45rem;
+    border-radius: 10px;
+    align-items: center;
+}
+
+
+@media only screen and (max-width: 900px) {
+    .code-page
+{
+    margin: 0;
+    margin-top: 1.2rem;
+    padding: 0.1rem;
+}
+
+.code
+{
+    margin: 0;
+    margin-top: 1.2rem;
+    padding: 0.1rem;
+}
+
+}
+
